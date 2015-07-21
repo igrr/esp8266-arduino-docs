@@ -1,0 +1,25 @@
+# Site settings
+title: ESP8266 Arduino Core
+email: ivan@esp8266.com
+description: > # this means to ignore newlines until "baseurl:"
+  Documentation for ESP8266 Arduino Core. Installation instructions,
+  functions and classes reference.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://arduino.esp8266.com" # the base hostname & protocol for your site
+github_username:  esp8266
+subtitle: v. 1.6.5-543-g1231234
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+defaults:
+  -
+    scope:
+      path: "doc"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "default" # overrides previous default layout
+      author: "ESP8266 community"
+      permalink: /:path/:basename:output_ext
