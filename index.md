@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Reference](doc/README.md)
+[Reference](doc/reference.md)
 
 [Change log](doc/changes.md)
 

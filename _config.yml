@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Documentation for ESP8266 Arduino Core. Installation instructions,
   functions and classes reference.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://arduino.esp8266.com" # the base hostname & protocol for your site
+url: "http://esp8266.github.com/Arduino" # the base hostname & protocol for your site
 github_username:  esp8266
-subtitle: "ver. 1.6.5-942-gc6e2a29, built on Jul 23, 2015"
+#subtitle: "ver. 1.6.5-942-gc6e2a29, built on Jul 23, 2015"
 # Build settings
 markdown: redcarpet
 highlighter: pygments

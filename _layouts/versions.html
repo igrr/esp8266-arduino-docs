@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include version_header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+        <ul>
+          {% include versions.html %}
+        </ul>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
