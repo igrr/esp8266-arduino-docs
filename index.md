@@ -2,8 +2,8 @@
 layout: default
 ---
 
-[Reference](doc/reference.md)
+Welcome to the ESP8266 Arduino core documentation, version {{ site.version }}.
 
-[Change log](doc/changes.md)
+Links on the left will take you to various sections.
 
-[Hardware](doc/boards.md)
+Source code of this version is available from GitHub: https://github.com/esp8266/Arduino/archive/{{ site.version }}.zip
