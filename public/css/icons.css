@@ -14,6 +14,7 @@
 (min-resolution: 192dpi) {
     #gh-icon {
         background-image: url("{{ site.baseurl }}/public/gh@2.png");
+        background-size: 100%;
     }
 }
 

@@ -1,32 +1,18 @@
+<div class="version-bar">
+  This documentation is for version {{ site.version }}. <a href="{{site.url}}/versions">Other versions.</a>
+</div>
+
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
       <h2>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.url }}">
           {{ site.title }}
         </a>
       </h2>
-      <div class="version-box">{{ site.version }}</div>
     </div>
 
     <nav class="sidebar-nav">
-      <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
-
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-<!--
-      {% for p in site.pages %}
-        {% if p.toplevel %}
-          {% if p.title %}
-            <a class="sidebar-nav-item{% if page.url == p.url %} active{% endif %}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    -->
-
       {% for ref_item in site.data.reference_items %}
         {% for p in site.pages %}
           {% if ref_item.path == p.url %}
@@ -37,11 +23,7 @@
             <div id="toc"></div>
         {% endif %}
       {% endfor %}
-
-
-
     </nav>
-
   <p>
     <a href="https://github.com/esp8266/Arduino"><div id="gh-icon"></div>esp8266/Arduino</a>
   </p>
